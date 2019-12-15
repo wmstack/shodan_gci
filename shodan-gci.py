@@ -55,8 +55,8 @@ def icanhazip():
         return
     
     print('Your IP is: \n')
-    #print(myip)
-    print('<My Ip-Addr>')
+    print(myip)
+    #print('<My Ip-Addr>')
     
 def shodan_query():
     os.system('clear')
