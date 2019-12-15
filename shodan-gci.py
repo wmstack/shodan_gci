@@ -17,7 +17,8 @@ import pydoc
 
 #shodan library
 import shodan
-SHODAN_API_KEY = 'BBKVxGzRTKvzC8EjzAPZqtLfq0h2u5w5'
+with open('api_key.txt') as api_key:
+    SHODAN_API_KEY = api_key.readline().rstrip()
 api = shodan.Shodan(SHODAN_API_KEY)
 
 def options():
