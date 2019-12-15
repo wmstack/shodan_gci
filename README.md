@@ -7,7 +7,7 @@ Usage:
 git clone https://github.com/wmstack/shodan_gci
 cd shodan_gci
 chmod +x shodan-gci.py
-
+echo API_KEY > api_key.txt
 ./shodan-gci.py
 
 1.What's my ip?
